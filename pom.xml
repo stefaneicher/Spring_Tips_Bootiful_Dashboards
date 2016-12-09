@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.stefaneicher</groupId>
+	<artifactId>Spring_Tips_Bootiful_Dashboards</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<!--see video https://www.youtube.com/watch?v=u1QnlAbCFys-->
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>client-a</module>
+		<module>client-b</module>
+		<module>eureka-server</module>
+		<module>spring-boot-admin</module>
+	</modules>
+	<!--Urls-->
+	<!--http://localhost:8761-->
+	<!--http://localhost:8080/metrics-->
+	<!--http://localhost:8081/metrics-->
+	<!--http://localhost:8082-->
+	<build>
+		<defaultGoal>clean install</defaultGoal>
+	</build>
+</project>
