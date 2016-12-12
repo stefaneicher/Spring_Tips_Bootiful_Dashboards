@@ -1,0 +1,1 @@
+mvn -pl client-b

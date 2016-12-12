@@ -1,0 +1,1 @@
+start https://www.youtube.com/watch?v=u1QnlAbCFys & start http://localhost:8761 & start http://localhost:8080/ & start http://localhost:8081/ & start http://localhost:8082 & start http://localhost:8083
