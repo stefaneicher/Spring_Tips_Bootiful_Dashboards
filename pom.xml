@@ -14,12 +14,8 @@
 		<module>client-b</module>
 		<module>eureka-server</module>
 		<module>spring-boot-admin</module>
+		<module>microservices-dashboard</module>
 	</modules>
-	<!--Urls-->
-	<!--http://localhost:8761-->
-	<!--http://localhost:8080/metrics-->
-	<!--http://localhost:8081/metrics-->
-	<!--http://localhost:8082-->
 	<build>
 		<defaultGoal>clean install</defaultGoal>
 	</build>
