@@ -4,7 +4,7 @@ import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.stereotype.Component;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Component
 public class MyHealthIndicator implements HealthIndicator {
@@ -20,7 +20,6 @@ public class MyHealthIndicator implements HealthIndicator {
 
     private int check() {
         //flaky health as example
-        return new Date().getSeconds()>30?2:0;
+        return LocalDateTime.now().getSecond() > 30 ? 2 : 0;
     }
-
 }
