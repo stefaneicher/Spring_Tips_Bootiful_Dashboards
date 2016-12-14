@@ -1,1 +1,0 @@
-mvn -pl eureka-server

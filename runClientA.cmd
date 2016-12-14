@@ -1,1 +1,0 @@
-mvn -pl client-a
